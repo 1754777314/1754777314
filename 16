@@ -1,0 +1,6 @@
+nombre=input("Ingrese el nombre: ")
+apellido=input("Ingrese el apellido: ")
+ubicacion=input("Ingrese su ubicacion: ")
+edad=input("Ingrese su edad: ")
+space=" "
+print("Sus datos de registro son: ",nombre+space+apellido+"usted esta en: "+ubicacion+space+"Y su edad es: "+space+edad)

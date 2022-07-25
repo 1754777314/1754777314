@@ -1,0 +1,21 @@
+
+import random
+fila=int(input("Ingrese el numero numero de filas: "))
+if fila<1 or fila>30:
+    print("Invalido")
+
+colunma=int(input("Ingrese el numero de columnas: "))
+if colunma<1 or colunma>30:
+    print("Invalido")
+
+matrix = []
+
+for k in range(fila):
+    matrix.append([0])
+    for j in range(colunma-1):
+        matrix[k].append(0)
+for k in range(fila):
+    for j in range(colunma-1):
+        
+        matrix[k][j]=(random.randrange(0,101))
+print(matrix)
